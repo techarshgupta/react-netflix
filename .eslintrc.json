@@ -3,9 +3,13 @@
     "airbnb",
     "prettier"
   ],
+  "parser": "@babel/eslint-parser",
   "parserOptions": {
     "ecmaVersion": 8,
+    "requireConfigFile": false,
     "ecmaFeatures": {
+      "jsx": true,
+      "modules": true,
       "experimentalObjectRestSpread": true,
       "impliedStrict": true,
       "classes": true
